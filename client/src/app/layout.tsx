@@ -14,7 +14,7 @@ export const metadata:Metadata = {
     siteName: 'Indian Bazaar Guy',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/logo.png' width:10 height: 10,
         width:10,
         height: 10,
         alt: 'Indian Bazaar Guy Logo',
