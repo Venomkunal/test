@@ -16,7 +16,7 @@ export const metadata:Metadata = {
       {
         url: '/images/logo.png',
         width: 800,
-        height: 600,
+        height: 400,
         alt: 'Indian Bazaar Guy Logo',
       },  ]},
   description: 'Welcome to Indian Bazaar Guy - Your one-stop shop for all your needs!. Explore our wide range of products and enjoy a seamless shopping experience.',
