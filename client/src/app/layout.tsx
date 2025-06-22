@@ -15,7 +15,7 @@ export const metadata:Metadata = {
     images: [
       {
         url: '/images/logo.png',
-        width: 400,
+        width: 200,
         height: 200,
         alt: 'Indian Bazaar Guy Logo',
       },  ]},
