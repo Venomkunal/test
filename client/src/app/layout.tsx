@@ -5,16 +5,16 @@ export const metadata:Metadata = {
   title: { default: 'Indian Bazaar Guy - Your One-Stop Shop for All Your Needs',
     template: '%s | Indian Bazaar Guy' },
   keywords: 'e-commerce, online shopping, Indian Bazaar Guy, buy online, shop online, products, shopping',
-  authors: [{ name: 'Indian Bazaar Guy', url: 'https://ibg.infinityfreeapp.com/' }],
+  authors: [{ name: 'Indian Bazaar Guy', url: 'test-ve1s.vercel.app' }],
   creator: 'Indian Bazaar Guy',
   openGraph: {
     title: 'Indian Bazaar Guy',
     description: 'Welcome to Indian Bazaar Guy - Your one-stop shop for all your needs!. Explore our wide range of products and enjoy a seamless shopping experience.',
-    url: 'http://192.168.31.249;3000',
+    url: 'test-ve1s.vercel.app',
     siteName: 'Indian Bazaar Guy',
     images: [
       {
-        url: 'http://192.168.31.249;3000/images/logo.png',
+        url: 'test-ve1s.vercel.app/images/logo.png',
         width: 800,
         height: 600,
         alt: 'Indian Bazaar Guy Logo',
