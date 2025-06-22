@@ -1,0 +1,45 @@
+import Navbar from './component/navbar'
+import Footer from './component/footer'
+import { Metadata } from 'next'
+export const metadata:Metadata = {
+  title: { default: 'Indian Bazaar Guy - Your One-Stop Shop for All Your Needs',
+    template: '%s | Indian Bazaar Guy' },
+  keywords: 'e-commerce, online shopping, Indian Bazaar Guy, buy online, shop online, products, shopping',
+  authors: [{ name: 'Indian Bazaar Guy', url: 'https://ibg.infinityfreeapp.com/' }],
+  creator: 'Indian Bazaar Guy',
+  openGraph: {
+    title: 'Indian Bazaar Guy',
+    description: 'Welcome to Indian Bazaar Guy - Your one-stop shop for all your needs!. Explore our wide range of products and enjoy a seamless shopping experience.',
+    url: 'http://192.168.31.249;3000',
+    siteName: 'Indian Bazaar Guy',
+    images: [
+      {
+        url: 'http://192.168.31.249;3000/images/logo.png',
+        width: 800,
+        height: 600,
+        alt: 'Indian Bazaar Guy Logo',
+      },  ]},
+  description: 'Welcome to Indian Bazaar Guy - Your one-stop shop for all your needs!. Explore our wide range of products and enjoy a seamless shopping experience.',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <header>
+          <Navbar/>
+        </header>
+        <main>
+          {children}
+          </main>
+        <footer>
+          <Footer />
+        </footer>
+        </body>
+    </html>
+  )
+}
